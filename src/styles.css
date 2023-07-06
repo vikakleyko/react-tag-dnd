@@ -1,0 +1,65 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.BooksContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.BookContainer {
+  margin: 24px;
+  max-width: 330px;
+}
+.Book {
+  border: 1px solid lightgrey;
+}
+.AssignAreaText {
+  color: rgb(111, 117, 122);
+}
+.TagsContainer {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin: 12px;
+}
+.Tag, .CopyTag {
+  align-items: center;
+  border-radius: 20px;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 10pt;
+  height: 32px;
+  justify-content: center;
+  line-height: 16pt;
+  min-width: 35px;
+  padding: 0 24px;
+}
+.CopyTag {
+  background: #E1E4E7;
+  color: #6F757A;
+}
+.CopyTag + div {
+  display: none !important;
+}
+.AssignedTag {
+  align-items: center;
+  background: #0C811C;
+  border-radius: 20px;
+  color: #FFFFFF;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 10pt;
+  height: 32px;
+  justify-content: center;
+  line-height: 16pt;
+  margin: 8px;
+  min-width: 35px;
+  padding: 0 24px;
+}
+
